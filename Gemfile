@@ -22,6 +22,8 @@ gem "csv"
 gem "base64"
 gem "bigdecimal"
 gem "webrick"
+gem 'logger'
+
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
