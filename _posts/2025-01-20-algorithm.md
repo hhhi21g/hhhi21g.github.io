@@ -7,4 +7,3 @@ tags:
 ---
 # Understanding Algorithms
 
-Here is some content about Algorithms...
