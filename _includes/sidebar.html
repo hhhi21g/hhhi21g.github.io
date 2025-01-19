@@ -22,12 +22,14 @@
 		{% for node in pages_list %}
 		{% if node.title != null %}
 		{% if node.layout == "page" %}
-		{% unless node.title == "About" or node.title == "Pygments-Css" %}
+		{% unless node.title == "About" }
+		{% unless node.title == ""Pygments-Css" %}
 		<li>
 			<a class="nav-item" href="{{ node.url }}">
 				{{ node.title }}
 			</a>
 		</li>
+		{% endunless %}
 		{% endunless %}
 		{% endif %}
 		{% endif %}
