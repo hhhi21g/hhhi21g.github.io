@@ -42,6 +42,13 @@ categories:
     url: "/categories/deeplearning/"
   - name: Algorithm
     url: "/categories/algorithm/"
+
+pages:
+  - title: "Articles"
+    url: "/articles/"
+  - title: "Sources"
+    url: "/sources/"
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
