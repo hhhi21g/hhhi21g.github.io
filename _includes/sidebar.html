@@ -16,12 +16,12 @@
 	<ul class="nav">
 		<li class="nav-title">Pages</li>
 		<li>
-			<a class="nav-item" href="/">Articles</a>
+			<a class="nav-item" href="{{ site.baseurl }}/articles/">Articles</a>
 		</li>
 		<li>
 			<a class="nav-item" href="{{ site.baseurl }}/sources/">Sources</a>
 		</li>
-		{% assign pages_list = site.pages %}
+		<!-- {% assign pages_list = site.pages %}
 		{% for node in pages_list %}
 		{% if node.title != null %}
 		{% if node.layout == "page" %}
@@ -32,7 +32,7 @@
 		</li>
 		{% endif %}
 		{% endif %}
-		{% endfor %}
+		{% endfor %} -->
 	</ul>
 </div>
 
