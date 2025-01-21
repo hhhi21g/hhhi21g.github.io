@@ -43,7 +43,7 @@ categories:
   - name: Algorithm
     url: "/categories/algorithm/"
 
-page:
+pages:
   - title: "Articles"
     url: "/articles/"
   - title: "Sources"
