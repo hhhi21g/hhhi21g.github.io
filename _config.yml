@@ -45,9 +45,9 @@ categories:
 
 pages:
   - title: "Articles"
-    url: "/articles/"
+    url: "/pages/articles/"
   - title: "Sources"
-    url: "/sources/"
+    url: "/pages/sources/"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

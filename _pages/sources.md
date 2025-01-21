@@ -1,7 +1,8 @@
 ---
 layout: page
 title: "Sources"
-permalink: /sources/
+permalink: /pages/sources/
+category: "Sources"
 ---
 
 
