@@ -1,8 +1,6 @@
 ---
 layout: page
 title: "Articles"
-permalink: /pages/articles/
-category: "Articles"
 ---
 
 <!-- 动态列出所有文章 -->
