@@ -10,23 +10,15 @@ categories: [DeepLearning]
 
 ---
 
-# 2. 预备知识
+### 2. 预备知识
 
-### 2.1  数据操作
+#### 2.1  数据操作🎊
 
-`x = torch.arange(num)` <!-- 非额外指定，张量存储在内存，基于CPU计算-->
-
-`x.shape`
-
-`x.numel()  # 张量中元素的总数`
-
-`x.resize(num1,num2,...)`
-
-`torch.zeros((num1,num2,num3,...))`
-
-`torch.ones((num1,num2,num3,...))`
-
-`torch.randn(num1,num2)  # 从均值为0，标准差为1的正态分布(高斯分布)中随机采样` 
-
-torch.tensor()都忘了就不用学了
+- `x = torch.arange(num)  # 非额外指定，张量存储在内存，基于CPU计算` 
+- `x.shape`
+- `x.numel()  # 张量中元素的总数`
+- `x.resize(num1,num2,...)`
+- `torch.zeros((num1,num2,num3,...))`
+- `torch.ones((num1,num2,num3,...))`
+- `torch.randn(num1,num2)  # 从均值为0，标准差为1的正态分布(高斯分布)中随机采样` 
 
