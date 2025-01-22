@@ -24,7 +24,7 @@ categories: [DeepLearning]
 - `x = torch.arange(num)  # 非额外指定，张量存储在内存，基于CPU计算` 
 - `x.shape`
 - `x.numel()  # 张量中元素的总数`
-- `x.resize(num1,num2,...)`
+- `x.reshape(num1,num2,...)`
 - `torch.zeros((num1,num2,num3,...))`
 - `torch.ones((num1,num2,num3,...))`
 - `torch.randn(num1,num2)  # 从均值为0，标准差为1的正态分布(高斯分布)中随机采样` 
@@ -45,6 +45,16 @@ categories: [DeepLearning]
 - `X == Y`
 
 - `X.sum()  # 对张量中所有元素进行求和`    
+
+  <span stype="color: blue;">
+
+  > [!NOTE]
+  >
+  > x.sum(): 结果为单元素张量
+  >
+  > x.numel():结果为乘积
+
+​       </span>
 
 ------
 
