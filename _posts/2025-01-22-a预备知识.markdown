@@ -46,9 +46,11 @@ categories: [DeepLearning]
 
 - `X.sum()  # 对张量中所有元素进行求和`    
 
-  $\textcolor{Blue}{x.sum(): 结果为单元素张量
-
-  x.numel():结果为乘积}$
+> [!NOTE]
+>
+> x.sum(): 结果为单元素张量
+>
+> x.numel():结果为乘积
 
 ------
 
