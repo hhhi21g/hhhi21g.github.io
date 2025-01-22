@@ -48,8 +48,6 @@ categories: [DeepLearning]
 
   <span style="color: blue;">
 
-  > [!NOTE]
-  >
   > x.sum(): 结果为单元素张量
   >
   > x.numel():结果为乘积
