@@ -46,7 +46,7 @@ categories: [DeepLearning]
 
 - `X.sum()  # 对张量中所有元素进行求和`    
 
-  <span stype="color: blue;">
+  <span style="color: blue;">
 
   > [!NOTE]
   >
