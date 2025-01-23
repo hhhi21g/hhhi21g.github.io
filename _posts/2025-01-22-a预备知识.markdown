@@ -312,7 +312,7 @@ torch.abs(u).sum()  # 7
 </p>
  <img src="..\public\img\ssh201.png" style="zoom:67%;" />
 
-<img src="..\public\img\ssh201.png" style="zoom:67%;" />
+<img src="..\public\img\ssh201.png"/>
 
 ```python
 torch.norm(torch.ones((4,9)))  # 6
