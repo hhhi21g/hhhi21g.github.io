@@ -296,7 +296,7 @@ print(A.sum(axis=0)/A.shape[0])
 
 ------
 
-##### 范数
+##### 范数S
 
 **L<sub>2</sub>范数**：常省略下标2
 
@@ -340,4 +340,33 @@ torch.norm(torch.ones((4,9)))  # 6
 #### 2.4   微积分
 
 #@save进入d2l包内的函数
+
+- ```python
+  use_svg_display()  # 使用svg格式在Jupyter中显示绘图
+  ```
+
+- ```python
+  set_figsize(figsize=(3.5, 2.5))  # 设置matplotlib的图表大小
+  ```
+
+- ```python
+  set_axes(axes, xlabel, ylabel, xlim, ylim, xscale, yscale, legend)  # 设置matplotlib的轴
+  ```
+
+- ```python
+  plot(X, Y=None, xlabel=None, ylabel=None, legend=None, xlim=None,
+           ylim=None, xscale='linear', yscale='linear',
+           fmts=('-', 'm--', 'g-.', 'r:'), figsize=(3.5, 2.5), axes=None)  # 绘制数据点
+  ```
+
+使用实例：
+
+```python
+x = np.arange(0, 3, 0.1)
+plot(x, [f(x), 2 * x - 3], 'x',
+     legend=['f(x)', 'Tangent line (x = 1)'])
+plt.show()
+```
+
+------
 
