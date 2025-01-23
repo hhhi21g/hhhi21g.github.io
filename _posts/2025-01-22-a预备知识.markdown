@@ -331,11 +331,11 @@ torch.norm(torch.ones((4,9)))  # 6
 
 <br>
 
-</br>
+<br/>
 
 <br>
 
-</br>
+<br/>
 
 #### 2.4   微积分
 
