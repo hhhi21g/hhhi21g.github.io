@@ -308,7 +308,7 @@ torch.abs(u).sum()  # 7
 **矩阵的Frobenius范数**
 
 <p align="center">
-    <img src="../public/img/ssh201.png" style="zoom:67%;" />
+    <img src="/../public/img/ssh201.png" alt="alt text" style="zoom:67%;" />
 </p>
 
  <img src="..\public\img\ssh201.png" style="zoom:67%;" />
