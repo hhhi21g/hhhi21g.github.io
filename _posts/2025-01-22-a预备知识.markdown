@@ -22,6 +22,11 @@ categories: [DeepLearning]
     - [张量算法的基本操作](#张量算法的基本操作)
     - [范数](#范数)
   - [2.4  微积分](#24--微积分)
+  - [2.5  自动微分](#25--自动微分)
+    - [标量变量的反向传播](#标量变量的反向传播)
+    - [非标量变量的反向传播](#非标量变量的反向传播)
+    - [分离计算](#分离计算)
+  - [2.6  概率](#26--概率)
 
 ### 2. 预备知识
 
@@ -329,7 +334,7 @@ torch.norm(torch.ones((4,9)))  # 6
 
 <br/>
 
-#### 2.4   微积分
+#### 2.4  微积分
 
 #@save进入d2l包内的函数
 
@@ -361,4 +366,86 @@ plt.show()
 ```
 
 ------
+
+<br/>
+
+<br/>
+
+#### 2.5  自动微分
+
+`x = torch.arange(4.0, requires_grad=True)  #PyTorch只允许浮点类型和负数类型的张量在计算图中进行梯度运算(float,complex)`
+
+##### **标量变量的反向传播**
+
+y = 2 *x<sup>T</sup>x
+
+`y = 2 * torch.dot(x, x)`
+
+```python
+y.backward()
+print(x.grad)
+```
+
+> tensor([ 0.,  4.,  8., 12.])
+
+```python
+x.grad.zero_()  # 默认情况会累计梯度，如果不清空结果为[1,5,9,13]
+y = x.sum()
+y.backward()
+print(x.grad)
+```
+
+> tensor([1., 1., 1., 1.])
+
+------
+
+##### **非标量变量的反向传播**
+
+```python
+x.grad.zero_()
+y = x * x
+y.sum().backward()
+# 等价于y.backward(torch.ones(len(x)))
+print(x.grad)
+```
+
+> tensor([0., 2., 4., 6.])
+
+注：两个等价
+
+个人理解，y.sum().backward(), 将x<sub>i</sub>的平方求和反向传播，关于x<sub>i</sub>的导数只与自身有关与其他x值无关，求和能够满足分别求导的目的，不求和无法确定求导的形状；
+
+y.backward(torch.ones(len(x))),显式地传递了一个全为1的张量作为权重，且形状与y相同。
+
+```python
+x.grad.zero_()
+y = x * x
+y.backward(torch.tensor([1, 2, 4, 3]))  # 设置权重
+print(x.grad)
+```
+
+> tensor([ 0.,  4., 16., 18.])
+
+------
+
+##### **分离计算**
+
+```python
+x.grad.zero_()
+y = x * x
+u = y.detach()  # u与y具有完全相同的值，但是梯度不会向后流经y到x
+z = u * x 
+
+z.sum().backward()  # 求导把u作为常数
+print(x.grad == u)
+print(x.grad == y)  # 输出均为True
+```
+
+------
+
+<br/>
+
+<br/>
+
+#### 2.6  概率
 
