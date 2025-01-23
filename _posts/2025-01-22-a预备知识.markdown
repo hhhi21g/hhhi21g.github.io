@@ -294,7 +294,7 @@ print(A.sum(axis=0)/A.shape[0])
 
 ##### 范数
 
-**L~2~范数**：常省略下标2
+**L<sub>2</sub>范数**：常省略下标2
 
 <p align="center">
     <img src="/../public/img/ssh203.png" alt="alt text" style="zoom:67%;" />
@@ -305,7 +305,7 @@ u = torch.tensor([3.0,-4.0])
 torch.norm(u)  # 5
 ```
 
-**L~1~范数**：受异常值的影响较小
+**L<sub>1</sub>范数**：受异常值的影响较小
 
 <p align="center">
     <img src="/../public/img/ssh202.png" alt="alt text" style="zoom:67%;" />
