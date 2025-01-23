@@ -256,7 +256,7 @@ print(A.sum(axis=0)/A.shape[0])
 
 - 两个向量的点积
 
-   x^T^Y
+   x<sup>T</sup>y
 
   ```python
   torch.dot(x,y)
@@ -308,11 +308,12 @@ torch.abs(u).sum()  # 7
 **矩阵的Frobenius范数**
 
 <p align="center">
-    <img src="..\public\img\ssh201.png" style="zoom:67%;" />
+    <img src="../public/img/ssh201.png" style="zoom:67%;" />
 </p>
+
  <img src="..\public\img\ssh201.png" style="zoom:67%;" />
 
-![alt text](/../public/img/ssh01.png)
+<img src="/../public/img/ssh201.png" alt="alt text" style="zoom:67%;" />
 
 ```python
 torch.norm(torch.ones((4,9)))  # 6
