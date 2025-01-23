@@ -329,3 +329,15 @@ torch.abs(u).sum()  # 7
 torch.norm(torch.ones((4,9)))  # 6
 ```
 
+<br>
+
+</br>
+
+<br>
+
+</br>
+
+#### 2.4   微积分
+
+#@save进入d2l包内的函数
+
