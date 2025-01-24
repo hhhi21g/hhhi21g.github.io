@@ -27,6 +27,8 @@ categories: [DeepLearning]
     - [非标量变量的反向传播](#非标量变量的反向传播)
     - [分离计算](#分离计算)
   - [2.6  概率](#26--概率)
+    - [使用实例](#使用实例)
+    - [一些概念](#一些概念)
 
 ### 2. 预备知识
 
@@ -245,7 +247,7 @@ print(A.sum(axis=0)/A.shape[0])
   > tensor([[40., 45., 50., 55.]])     
 
   ```python
-  res = A.cumsum(axis=0)
+  res = A.cumsum(axis=0)  # 沿方向累计求和
   print(res)
   ```
 
@@ -449,3 +451,44 @@ print(x.grad == y)  # 输出均为True
 
 #### 2.6  概率
 
+##### **使用实例**
+
+```python
+# 概率向量
+fair_probs = torch.ones([6]) / 6
+# 进行total_count次实验
+# .sample() 进行采样
+sample = multinomial.Multinomial(1, fair_probs).sample()
+samples = multinomial.Multinomial(10, fair_probs).sample()
+counts = multinomial.Multinomial(1000, fair_probs).sample()
+```
+
+绘图
+
+```python
+counts = multinomial.Multinomial(10, fair_probs).sample((5,))
+cum_counts = counts.cumsum(dim=0)
+estimates = cum_counts / cum_counts.sum(dim=1, keepdim=True)
+
+d2l.set_figsize((6, 4.5))
+for i in range(6):
+    d2l.plt.plot(estimates[:, i].numpy(),
+                 label=("P(die=" + str(i + 1) + ")"))
+d2l.plt.axhline(y=0.167, color='black', linestyle='dashed')  # 在当前图中绘制一条y=0.167的水平虚线
+d2l.plt.gca().set_xlabel('Groups of experiments')
+d2l.plt.gca().set_ylabel('Estimated probability')
+d2l.plt.legend()  # 在图中显示图例，即在绘图时给不同元素指定的标签
+d2l.plt.show()
+```
+
+------
+
+##### 一些概念
+
+**联合概率**：P(A = a, B = b)
+
+**边际化**：其结果的概率或分布称为边际概率或边际分布
+
+<p align="center">
+    <img src="/../public/img/ssh301.png" alt="alt text" style="zoom:67%;" />
+</p>
