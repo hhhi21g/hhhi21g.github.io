@@ -42,7 +42,8 @@ categories:
     url: "/categories/deeplearning/"
   - name: Algorithm
     url: "/categories/algorithm/"
-
+  - name: Code
+    url: "/categories/code/"
 pages:
   - title: "Articles"
     url: "/pages/articles/"
