@@ -44,6 +44,8 @@ categories:
     url: "/categories/algorithm/"
   - name: Code
     url: "/categories/code/"
+  - name: Recommendation
+    url: "categories/recommendation/"
 pages:
   - title: "Articles"
     url: "/pages/articles/"
