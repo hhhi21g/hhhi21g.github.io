@@ -13,7 +13,7 @@ categories: [Code]
 #### 1. 熊怪吃核桃（15）
 
 <p align="center">
-    <img src="https://hhhi21g.github.io/public/img/lanqiao6/l0.png" alt="alt text" style="zoom:50%;" />
+    <img src="https://hhhi21g.github.io/public/img/lanqiao6/l0.png" alt="alt text" style="zoom:70%;" />
 </p>
 
 ```java
@@ -44,7 +44,7 @@ public class sec {
 #### 2. 星系炸弹（15）
 
 <p align="center">
-    <img src="https://hhhi21g.github.io/public/img/lanqiao6/l1.png" alt="alt text" style="zoom:50%;" />
+    <img src="https://hhhi21g.github.io/public/img/lanqiao6/l1.png" alt="alt text" style="zoom:70%;" />
 </p>
 
 硬减
@@ -58,7 +58,7 @@ public class sec {
 #### 3. 九数分三组（25）
 
 <p align="center">
-    <img src="https://hhhi21g.github.io/public/img/lanqiao6/l2.png" alt="alt text" style="zoom:50%;" />
+    <img src="https://hhhi21g.github.io/public/img/lanqiao6/l2.png" alt="alt text" style="zoom:70%;" />
 </p>
 
 **思路：**
@@ -82,7 +82,7 @@ public class sec {
 #### 4. 移动距离（25）
 
 <p align="center">
-    <img src="https://hhhi21g.github.io/public/img/lanqiao6/l3.png" alt="alt text" style="zoom:50%;" />
+    <img src="https://hhhi21g.github.io/public/img/lanqiao6/l3.png" alt="alt text" style="zoom:70%;" />
 </p>
 
 ```java
@@ -150,7 +150,7 @@ public class Main {
 #### 5. 垒骰子（35，未解决）
 
 <p align="center">
-    <img src="https://hhhi21g.github.io/public/img/lanqiao6/l4.png" alt="alt text" style="zoom:50%;" />
+    <img src="https://hhhi21g.github.io/public/img/lanqiao6/l4.png" alt="alt text" style="zoom:70%;" />
 </p>
 
 分析思路：
@@ -316,7 +316,7 @@ public class fir01 {
   `b[x][y]`互斥，`b[y][x]`也互斥，二者都设置为true;
 
 - <p align="center">
-      <img src="https://hhhi21g.github.io/public/img/lanqiao6/l5.png" alt="alt text" style="zoom:50%;" />
+      <img src="https://hhhi21g.github.io/public/img/lanqiao6/l5.svg" alt="alt text" style="zoom:70%;" />
   </p>
 
 ​      matrix[i] = M · matrix[i-1] = M<sup>n-1</sup> · matrix[1],  matrix[i]为第i层的方案数 
