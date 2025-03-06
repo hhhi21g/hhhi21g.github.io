@@ -319,7 +319,7 @@ public class fir01 {
       <img src="https://hhhi21g.github.io/public/img/lanqiao6/l5.svg" alt="alt text" style="zoom:70%;" />
   </p>
 
-​      matrix[i] = M · matrix[i-1] = M<sup>n-1</sup> · matrix[1],  matrix[i]为第i层的方案数 
+​      matrix[i] = M · matrix[i-1] = M<sup>n-1</sup> · matrix[1],  matrix[i]为第i层的方案数 (该matrix与代码中意义不同)
 
 ​      M为矩阵：当其元素下标+1对应的两个数字是互斥面时，该点元素为0；否则，该点元素为1；
 
