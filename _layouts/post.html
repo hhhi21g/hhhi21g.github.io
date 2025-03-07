@@ -17,10 +17,10 @@ layout: default
         repo: 'blog_comments', // 存储评论的仓库
         owner: 'hhhi21g',
         admin: ['hhhi21g'],
-        id: location.pathname%50, // 确保每个页面的评论唯一
+        id: location.pathname.substr(0, 50), // 确保每个页面的评论唯一
         distractionFreeMode: false, // 是否开启干净模式
         proxy: 'https://cors-anywhere.herokuapp.com/', // 代理解决跨域问题
-       // accessToken: process.env.GITHUB_TOKEN
+        // accessToken: process.env.GITHUB_TOKEN
     });
 
     gitalk.render('gitalk-container');
