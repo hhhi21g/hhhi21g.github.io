@@ -51,7 +51,11 @@ pages:
     url: "/pages/articles/"
   - title: "Sources"
     url: "/pages/sources/"
-
+gitalk:
+  clientID: Ov23lii1qch2lyunAOlK
+  clientSecret: e6b7e406496ed4af2af64b956aa8224d74f8bba1
+  repo: hhhi21g.github.io
+  owner: hhhi21g
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
