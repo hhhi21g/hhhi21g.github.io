@@ -329,3 +329,10 @@ public class fir01 {
 
 ------
 
+<br/>
+
+#### 6. 灾后重建（35，未解决）
+
+<p align="center">
+    <img src="https://hhhi21g.github.io/public/img/lanqiao6/l5.png" alt="alt text" style="zoom:70%;" />
+</p>
