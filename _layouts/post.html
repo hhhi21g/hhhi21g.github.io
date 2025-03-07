@@ -2,3 +2,23 @@
 layout: default
 ---
 {% include post.html %}
+<!-- 引入 Gitalk CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+
+<!-- 添加 Gitalk 容器 -->
+<div id="gitalk-container"></div>
+
+<script>
+    var gitalk = new Gitalk({
+        clientID: 'Ov23lii1qch2lyunAOlK',
+        clientSecret: 'e6b7e406496ed4af2af64b956aa8224d74f8bba1',
+        repo: 'hhhi21g.github.io', // 存储评论的仓库
+        owner: 'hhhi21g',
+        admin: ['hhhi21g'],
+        id: location.pathname, // 确保每个页面的评论唯一
+        distractionFreeMode: false // 是否开启干净模式
+    });
+
+    gitalk.render('gitalk-container');
+</script>
