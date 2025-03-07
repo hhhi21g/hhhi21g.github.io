@@ -17,7 +17,8 @@ layout: default
         owner: 'hhhi21g',
         admin: ['hhhi21g'],
         id: location.pathname, // 确保每个页面的评论唯一
-        distractionFreeMode: false // 是否开启干净模式
+        distractionFreeMode: false, // 是否开启干净模式
+        proxy: 'https://cors-anywhere.herokuapp.com/'  // 代理解决跨域问题
     });
 
     gitalk.render('gitalk-container');
