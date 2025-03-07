@@ -20,7 +20,7 @@ layout: default
         id: location.pathname.substr(0, 50), // 确保每个页面的评论唯一
         distractionFreeMode: false, // 是否开启干净模式
         proxy: 'https://cors-anywhere.herokuapp.com/', // 代理解决跨域问题
-        // accessToken: process.env.GITHUB_TOKEN
+        
     });
 
     gitalk.render('gitalk-container');
