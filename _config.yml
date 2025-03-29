@@ -45,7 +45,9 @@ categories:
   - name: Code
     url: "/categories/code/"
   - name: Recommendation
-    url: "categories/recommendation/"
+    url: "/categories/recommendation/"
+  - name: Others
+    url: "/categories/Others/"
 pages:
   - title: "Articles"
     url: "/pages/articles/"
