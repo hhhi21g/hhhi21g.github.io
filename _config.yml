@@ -59,6 +59,10 @@ gitalk:
   repo: hhhi21g.github.io
   owner: hhhi21g
 markdown: kramdown
+minima:
+  social_links:
+    github: hhhi21g
+    
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
