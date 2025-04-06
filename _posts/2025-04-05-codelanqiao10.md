@@ -151,3 +151,179 @@ public class L6 {
 
 ------
 
+#### 7.  外卖优先级
+
+<p align="center">
+    <img src="https://hhhi21g.github.io/public/img/lanqiao10/l4.png" alt="alt text" style="zoom:70%;" />
+</p>
+
+```java
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		int m = sc.nextInt();
+		int t = sc.nextInt();
+
+		int[][] pay = new int[n + 1][t + 1]; // pay[i][t]: i店家，t时刻的订单数
+		boolean[] priority = new boolean[n + 1]; // priority[i]: i店家是否优先1/0
+		for (int i = 0; i < m; i++) {
+			int num1 = sc.nextInt();
+			int num2 = sc.nextInt();
+			pay[num2][num1]++;
+		}
+
+		int[] priNum = new int[t + 1]; // 优先级
+		for (int i = 1; i <= n; i++) {
+		    Arrays.fill(priNum, 0);
+			for (int j = 1; j <= t; j++) {
+				if (pay[i][j] > 0) {
+					priNum[j] = priNum[j - 1] + 2 * pay[i][j];
+				} else {
+					if (priNum[j - 1] - 1 >= 0)
+						priNum[j] = priNum[j - 1] - 1;
+				}
+				if (priNum[j] > 5)
+					priority[i] = true;
+				if (priNum[j] <= 3)
+					priority[i] = false;
+			}
+		}
+		int cnt = 0;
+		for (int i = 1; i <= n; i++) {
+			if (priority[i])
+				cnt++;
+		}
+
+		System.out.print(cnt);
+	}
+}
+```
+
+上面代码十个用例通过九个，剩下一个二维数组空间太大爆了
+
+```java
+package lanQ10;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Scanner;
+
+public class L7_2 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		int m = sc.nextInt();
+		int t = sc.nextInt();
+
+		List<List<Integer>> orders = new ArrayList<>();
+		for (int i = 0; i <= n; i++) {
+			orders.add(new ArrayList<>());
+		}
+
+		for (int i = 0; i < m; i++) {
+			int ts = sc.nextInt();
+			int id = sc.nextInt();
+			orders.get(id).add(ts);
+		}
+
+		int count = 0;
+		for (int id = 1; id <= n; id++) {
+			List<Integer> list = orders.get(id);
+			Collections.sort(list); // 必须是list,进行排序
+			int currentTime = 0;
+			int priority = 0;
+			boolean inCache = false;
+			int j = 0;
+			while (j < list.size()) {
+				int ts = list.get(j);
+				int cnt = 0;
+				// 处理连续时刻来多个订单
+				while (j < list.size() && list.get(j) == ts) {
+					cnt++;
+					ts++;
+				}
+
+				int dt = ts - currentTime - 1; // 没人下单
+				if (dt > 0) {
+					int newPriority = Math.max(priority - dt, 0);
+					if (inCache && newPriority <= 3)
+						inCache = false;
+
+					priority = newPriority;
+				}
+
+				priority += 2 * cnt;
+				if (priority > 5) {
+					inCache = true;
+				} else if (priority <= 3) {
+					inCache = false;
+				}
+				currentTime = ts;
+			}
+
+			// 处理最后时间段:处理完最后一个订单，可能还有空闲时间
+			int dt = t - currentTime;
+			if (dt > 0) {
+				int newPriority = Math.max(priority - dt, 0);
+				if (inCache && newPriority <= 3)
+					inCache = false;
+				priority = newPriority;
+			}
+			if (inCache) {
+				count++;
+			}
+		}
+		System.out.println(count);
+	}
+}
+```
+
+------
+
+#### 8.  修改数组
+
+<p align="center">
+    <img src="https://hhhi21g.github.io/public/img/lanqiao10/l5.png" alt="alt text" style="zoom:70%;" />
+</p>
+
+```java
+import java.util.ArrayDeque;
+import java.util.Deque;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		Deque<Integer> origin = new ArrayDeque<>();
+		Deque<Integer> res = new ArrayDeque<>();
+		for (int i = 0; i < n; i++) {
+			int num = sc.nextInt();
+			origin.offerLast(num);
+		}
+		for (int i = 0; i < n; i++) {
+			int num = origin.pollFirst();
+			while (res.contains(num)) {
+				num++;
+			}
+			res.offerLast(num);
+		}
+
+		for (int i = 0; i < n; i++) {
+			System.out.print(res.pollFirst());
+			System.out.print(" ");
+		}
+	}
+}
+```
+
+------
+
