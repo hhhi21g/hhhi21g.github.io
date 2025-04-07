@@ -8,7 +8,7 @@ date: 2025-04-05 22:36:22 +0900
 categories: [Code]
 ---
 
-### 第八届蓝桥杯大赛软件赛省赛Java大学A组
+### 第十届蓝桥杯大赛软件赛省赛Java大学A组
 
 #### 1.  平方和
 
@@ -325,5 +325,60 @@ public class Main {
 }
 ```
 
+这里需要注意：**contains()**方法只是方便实现，但是**时间复杂度还是很高的**，因此上面代码对于大部分代码都出现运行超时(4/10); 这个问题可以通过引入一个**HashSet，查找复杂度为O(1)**
+
+修改后，通过8/10
+
+```java
+package lanQ10;
+
+import java.util.Scanner;
+
+public class L8 {
+	static int[] f = new int[2000000]; // 并查集，用于存储父节点
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		int[] origin = new int[n];
+
+		for (int i = 1; i < f.length; i++) {
+			f[i] = i; // 1. 将每个节点的父节点先初始化为自己
+		}
+
+		for (int i = 0; i < n; i++) {
+			origin[i] = sc.nextInt();
+		}
+
+		for (int i = 0; i < origin.length; i++) {
+			int k = find(origin[i]);
+			origin[i] = k;
+			f[origin[i]] = find(origin[i] + 1);
+		}
+
+		for (int i = 0; i < origin.length; i++) {
+			System.out.print(origin[i] + " ");
+		}
+
+	}
+
+	public static int find(int x) {
+		if (x == f[x])
+			return x; // 根节点的父节点初始化为了自己
+		else {
+			f[x] = find(f[x]); // 父节点设置为父节点的父节点，实现了路径压缩
+			return f[x];
+		}
+	}
+}
+```
+
+并查集知识补充：https://zhuanlan.zhihu.com/p/93647900
+
 ------
 
+#### 9.  糖果
+
+------
+
+#### 10.  组合数问题
