@@ -139,7 +139,7 @@ public class L1 {
 #### 2.  9数算式
 
 <p align="center">
-    <img src="https://hhhi21g.github.io/public/img/lanqiao8/ll.png" alt="alt text" style="zoom:70%;" />
+    <img src="https://hhhi21g.github.io/public/img/lanqiao8/l1.png" alt="alt text" style="zoom:70%;" />
 </p>
 
 ```java
