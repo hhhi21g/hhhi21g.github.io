@@ -1,11 +1,11 @@
 ---
 layout: post
 
-title: 信安杯心跳认证方法_CardioCam_
+title: 信安杯心跳认证方法_CardioCam
 
 date: 2025-04-13 16:31:23 +0900
 
-categories: [Others]
+categories: [XinAnBei]
 ---
 
 ### CardioCam: Leveraging Camera on Mobile Devices to Verify Users While Their Heart is Pumping

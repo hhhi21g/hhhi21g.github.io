@@ -46,8 +46,11 @@ categories:
     url: "/categories/code/"
   - name: Recommendation
     url: "/categories/recommendation/"
+  - name: XinAnBei
+    url: "/catagories/XinAnBei/"
   - name: Others
     url: "/categories/Others/"
+
 pages:
   - title: "Articles"
     url: "/pages/articles/"
