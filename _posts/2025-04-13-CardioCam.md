@@ -10,6 +10,8 @@ categories: [XinAnBei]
 
 ### CardioCam: Leveraging Camera on Mobile Devices to Verify Users While Their Heart is Pumping
 
+论文链接：https://dl.acm.org/doi/10.1145/3307334.3326093
+
 #### PCA(主成分分析)： 机器学习中无监督学习的一种降维算法
 
 将高维数据映射到低维空间，通过数据投影的线性转化(正交变换)，用较少的数据集维数，**保留数据集中对方差贡献最大的特征**，也就是保留数据的主要特征。
