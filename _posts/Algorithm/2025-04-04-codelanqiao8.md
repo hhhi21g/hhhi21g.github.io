@@ -15,8 +15,9 @@ categories: [Code]
 #### 1.  迷宫：最短路径问题
 
 <p align="center">
-    <img src="https://hhhi21g.github.io/public/img/lanqiao8/l0.png" alt="alt text" style="zoom:70%;" />
+    <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao8/l0.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 ```java
 package lanQ8;
@@ -139,8 +140,9 @@ public class L1 {
 #### 2.  9数算式
 
 <p align="center">
-    <img src="https://hhhi21g.github.io/public/img/lanqiao8/l1.png" alt="alt text" style="zoom:70%;" />
+    <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao8/l1.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 ```java
 package lanQ8;
@@ -229,28 +231,31 @@ public class L2 {
 #### 3.  魔方状态
 
 <p align="center">
-    <img src="https://hhhi21g.github.io/public/img/lanqiao8/l2.png" alt="alt text" style="zoom:70%;" />
+    <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao8/l2.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 > 229878
 
 **思路：(根本看不懂，也并没有找到很完整的解题思路）**
 
 <p align="center">
-    <img src="https://hhhi21g.github.io/public/img/lanqiao8/l3.png" alt="alt text" style="zoom:70%;" />
+    <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao8/l3.png" alt="alt text" style="zoom:70%;" />
 </p>
 
 <p align="center">
-    <img src="https://hhhi21g.github.io/public/img/lanqiao8/l4.jpeg" alt="alt text" style="zoom:70%;" />
+    <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao8/l4.jpeg" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 ------
 
 #### 4.  方格分割
 
 <p align="center">
-    <img src="https://hhhi21g.github.io/public/img/lanqiao8/l5.png" alt="alt text" style="zoom:70%;" />
+    <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao8/l5.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 ```java
 package lanQ8;
@@ -308,8 +313,9 @@ public class L4 {
 #### 5.  正则问题
 
 <p align="center">
-    <img src="https://hhhi21g.github.io/public/img/lanqiao8/l6.png" alt="alt text" style="zoom:70%;" />
+    <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao8/l6.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 ```java
 package lanQ8;
@@ -368,8 +374,9 @@ public class L5_2 {
 #### 6.  包子凑数
 
 <p align="center">
-    <img src="https://hhhi21g.github.io/public/img/lanqiao8/l7.png" alt="alt text" style="zoom:70%;" />
+    <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao8/l7.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 ```java
 // 个人AC代码
@@ -441,8 +448,9 @@ public class Main {
 #### 7.  分巧克力
 
 <p align="center">
-    <img src="https://hhhi21g.github.io/public/img/lanqiao8/l8.png" alt="alt text" style="zoom:70%;" />
+    <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao8/l8.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 ```java
 // 个人AC代码
@@ -544,7 +552,7 @@ public class L7 {
 #### 8.  油漆面积
 
 <p align="center">
-    <img src="https://hhhi21g.github.io/public/img/lanqiao8/l9.png" alt="alt text" style="zoom:70%;" />
+    <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao8/l9.png" alt="alt text" style="zoom:70%;" />
 </p>
 
 ```java

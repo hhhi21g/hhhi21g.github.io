@@ -5,7 +5,8 @@ title: Com6_第六届蓝桥杯大赛软件赛省赛Java大学A组
 
 date: 2025-03-06 20:01:23 +0900
 
-categories: [Code]
+categories: [数据结构与算法]
+tags: [刷题]
 ---
 
 ### 第六届蓝桥杯大赛软件赛省赛Java大学A组
@@ -13,8 +14,9 @@ categories: [Code]
 #### 1. 熊怪吃核桃（15）
 
 <p align="center">
-    <img src="https://hhhi21g.github.io/public/img/lanqiao6/l0.png" alt="alt text" style="zoom:70%;" />
+    <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao6/l0.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 ```java
 package lanQ6;
@@ -39,13 +41,12 @@ public class sec {
 
 ------
 
-<br/>
-
 #### 2. 星系炸弹（15）
 
 <p align="center">
-    <img src="https://hhhi21g.github.io/public/img/lanqiao6/l1.png" alt="alt text" style="zoom:70%;" />
+    <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao6/l1.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 硬减
 
@@ -53,13 +54,12 @@ public class sec {
 
 ------
 
-<br/>
-
 #### 3. 九数分三组（25）
 
 <p align="center">
-    <img src="https://hhhi21g.github.io/public/img/lanqiao6/l2.png" alt="alt text" style="zoom:70%;" />
+    <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao6/l2.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 **思路：**
 
@@ -77,13 +77,12 @@ public class sec {
 
 ------
 
-<br/>
-
 #### 4. 移动距离（25）
 
 <p align="center">
-    <img src="https://hhhi21g.github.io/public/img/lanqiao6/l3.png" alt="alt text" style="zoom:70%;" />
+    <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao6/l3.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 ```java
 import java.util.Scanner;
@@ -145,13 +144,12 @@ public class Main {
 
 ------
 
-<br/>
-
 #### 5. 垒骰子（35，未解决）
 
 <p align="center">
-    <img src="https://hhhi21g.github.io/public/img/lanqiao6/l4.png" alt="alt text" style="zoom:70%;" />
+    <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao6/l4.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 分析思路：
 
@@ -316,7 +314,7 @@ public class fir01 {
   `b[x][y]`互斥，`b[y][x]`也互斥，二者都设置为true;
 
 - <p align="center">
-      <img src="https://hhhi21g.github.io/public/img/lanqiao6/l5.svg" alt="alt text" style="zoom:70%;" />
+      <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao6/l5.svg" alt="alt text" style="zoom:70%;" />
   </p>
 
 ​      matrix[i] = M · matrix[i-1] = M<sup>n-1</sup> · matrix[1],  matrix[i]为第i层的方案数 (该matrix与代码中意义不同)
@@ -327,12 +325,11 @@ public class fir01 {
 - 遍历求出该结果矩阵中所有元素之和，即为不考虑四周的摆放方案总数；
 - 骰子通过旋转，在上下面确定时有四个不同的摆放方式，n个骰子则有4<sup>n</sup>个，通过常数的快速幂计算并乘在结果中，%1e9+7得到结果
 
-------
-
-<br/>
+****
 
 #### 6. 灾后重建（35，未解决）
 
 <p align="center">
-    <img src="https://hhhi21g.github.io/public/img/lanqiao6/l5.png" alt="alt text" style="zoom:70%;" />
+    <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao6/l5.png" alt="alt text" style="zoom:70%;" />
 </p>
+

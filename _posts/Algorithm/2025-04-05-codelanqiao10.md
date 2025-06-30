@@ -13,8 +13,9 @@ categories: [Code]
 #### 1.  平方和
 
 <p align="center">
-    <img src="https://hhhi21g.github.io/public/img/lanqiao10/l0.png" alt="alt text" style="zoom:70%;" />
+    <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao10/l0.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 > 2658417853
 
@@ -25,8 +26,9 @@ categories: [Code]
 #### 2.  数列求值
 
 <p align="center">
-    <img src="https://hhhi21g.github.io/public/img/lanqiao10/l1.png" alt="alt text" style="zoom:70%;" />
+    <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao10/l1.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 ```java
 package lanQ10;
@@ -65,8 +67,9 @@ public class L2 {
 #### 4.  最大降雨量
 
 <p align="center">
-    <img src="https://hhhi21g.github.io/public/img/lanqiao10/l2.png" alt="alt text" style="zoom:70%;" />
+    <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao10/l2.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 ```java
 public class Main {
@@ -99,8 +102,9 @@ public class Main {
 #### 6.  完全二叉树的权值
 
 <p align="center">
-    <img src="https://hhhi21g.github.io/public/img/lanqiao10/l3.png" alt="alt text" style="zoom:70%;" />
+    <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao10/l3.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 ```java
 package lanQ10;
@@ -154,8 +158,9 @@ public class L6 {
 #### 7.  外卖优先级
 
 <p align="center">
-    <img src="https://hhhi21g.github.io/public/img/lanqiao10/l4.png" alt="alt text" style="zoom:70%;" />
+    <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao10/l4.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 ```java
 import java.util.Arrays;
@@ -290,7 +295,7 @@ public class L7_2 {
 #### 8.  修改数组
 
 <p align="center">
-    <img src="https://hhhi21g.github.io/public/img/lanqiao10/l5.png" alt="alt text" style="zoom:70%;" />
+    <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao10/l5.png" alt="alt text" style="zoom:70%;" />
 </p>
 
 ```java
