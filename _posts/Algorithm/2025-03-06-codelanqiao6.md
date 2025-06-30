@@ -9,13 +9,12 @@ categories: [数据结构与算法]
 tags: [刷题]
 ---
 
-### 第六届蓝桥杯大赛软件赛省赛Java大学A组
-
 #### 1. 熊怪吃核桃（15）
 
-<p align="center">
+<p>
     <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao6/l0.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 
 ```java
@@ -43,9 +42,10 @@ public class sec {
 
 #### 2. 星系炸弹（15）
 
-<p align="center">
+<p>
     <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao6/l1.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 
 硬减
@@ -56,9 +56,10 @@ public class sec {
 
 #### 3. 九数分三组（25）
 
-<p align="center">
+<p>
     <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao6/l2.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 
 **思路：**
@@ -79,9 +80,10 @@ public class sec {
 
 #### 4. 移动距离（25）
 
-<p align="center">
+<p>
     <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao6/l3.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 
 ```java
@@ -146,9 +148,10 @@ public class Main {
 
 #### 5. 垒骰子（35，未解决）
 
-<p align="center">
+<p>
     <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao6/l4.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 
 分析思路：
@@ -313,7 +316,7 @@ public class fir01 {
 
   `b[x][y]`互斥，`b[y][x]`也互斥，二者都设置为true;
 
-- <p align="center">
+- <p>
       <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao6/l5.svg" alt="alt text" style="zoom:70%;" />
   </p>
 
@@ -329,7 +332,8 @@ public class fir01 {
 
 #### 6. 灾后重建（35，未解决）
 
-<p align="center">
+<p>
     <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao6/l5.png" alt="alt text" style="zoom:70%;" />
 </p>
 
+****

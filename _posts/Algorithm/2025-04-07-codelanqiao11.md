@@ -5,16 +5,18 @@ title: Com11_第十一届蓝桥杯大赛软件赛省赛Java大学A组
 
 date: 2025-04-07 13:19:22 +0900
 
-categories: [Code]
+categories: [数据结构与算法]
+tags: [刷题]
 ---
 
 ### 第十一届蓝桥杯大赛软件赛省赛Java大学A组
 
 #### 1.  门牌制作
 
-<p align="center">
+<p>
     <img src="https://hhhi21g.github.io/public/img/lanqiao11/l0.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 > 624
 
@@ -22,9 +24,10 @@ categories: [Code]
 
 #### 2.  既约分数
 
-<p align="center">
+<p>
     <img src="https://hhhi21g.github.io/public/img/lanqiao11/l1.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 ```java
 package lanQ11;
@@ -63,9 +66,10 @@ public class l2 {
 
 #### 3.  蛇形填数
 
-<p align="center">
+<p>
     <img src="https://hhhi21g.github.io/public/img/lanqiao11/l3.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 ```java
 package lanQ11;
@@ -123,9 +127,10 @@ public class l3 {
 
 #### 4.  七段码
 
-<p align="center">
+<p>
     <img src="https://hhhi21g.github.io/public/img/lanqiao11/l2.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 ```python
 import os
@@ -146,9 +151,10 @@ print(s)
 
 #### 5.  成绩分析
 
-<p align="center">
+<p>
     <img src="https://hhhi21g.github.io/public/img/lanqiao11/l4.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 ```java
 package lanQ11;
@@ -184,9 +190,10 @@ public class l5 {
 
 #### 6.  回文日期
 
-<p align="center">
+<p>
     <img src="https://hhhi21g.github.io/public/img/lanqiao11/l5.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 ```java
 package lanQ11;
@@ -281,9 +288,10 @@ public class l6 {
 
 #### 7.  子串分值
 
-<p align="center">
+<p>
     <img src="https://hhhi21g.github.io/public/img/lanqiao11/l6.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 ```java
 // 运行超时
@@ -328,7 +336,7 @@ public class l7 {
 
 #### 8.  字串排序
 
-<p align="center">
+<p>
     <img src="https://hhhi21g.github.io/public/img/lanqiao11/l7.png" alt="alt text" style="zoom:70%;" />
 </p>
 

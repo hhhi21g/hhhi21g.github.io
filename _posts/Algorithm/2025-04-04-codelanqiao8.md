@@ -5,18 +5,18 @@ title: Com8_第八届蓝桥杯大赛软件赛省赛Java大学A组
 
 date: 2025-04-04 22:27:23 +0900
 
-categories: [Code]
+categories: [数据结构与算法]
+tags: [刷题]
 ---
-
-### 第八届蓝桥杯大赛软件赛省赛Java大学A组
 
 提交的时候一定要记得，把代码中**用于测试的输出去掉**😅
 
 #### 1.  迷宫：最短路径问题
 
-<p align="center">
+<p>
     <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao8/l0.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 
 ```java
@@ -139,9 +139,10 @@ public class L1 {
 
 #### 2.  9数算式
 
-<p align="center">
+<p>
     <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao8/l1.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 
 ```java
@@ -230,31 +231,34 @@ public class L2 {
 
 #### 3.  魔方状态
 
-<p align="center">
+<p>
     <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao8/l2.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 
 > 229878
 
 **思路：(根本看不懂，也并没有找到很完整的解题思路）**
 
-<p align="center">
+<p>
     <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao8/l3.png" alt="alt text" style="zoom:70%;" />
 </p>
 
-<p align="center">
+<p>
     <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao8/l4.jpeg" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 
 ------
 
 #### 4.  方格分割
 
-<p align="center">
+<p>
     <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao8/l5.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 
 ```java
@@ -312,9 +316,10 @@ public class L4 {
 
 #### 5.  正则问题
 
-<p align="center">
+<p>
     <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao8/l6.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 
 ```java
@@ -373,9 +378,10 @@ public class L5_2 {
 
 #### 6.  包子凑数
 
-<p align="center">
+<p>
     <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao8/l7.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 
 ```java
@@ -447,9 +453,10 @@ public class Main {
 
 #### 7.  分巧克力
 
-<p align="center">
+<p>
     <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao8/l8.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 
 ```java
@@ -551,7 +558,7 @@ public class L7 {
 
 #### 8.  油漆面积
 
-<p align="center">
+<p>
     <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao8/l9.png" alt="alt text" style="zoom:70%;" />
 </p>
 

@@ -5,16 +5,16 @@ title: Com10_第十届蓝桥杯大赛软件赛省赛Java大学A组
 
 date: 2025-04-05 22:36:22 +0900
 
-categories: [Code]
+categories: [数据结构与算法]
+tags: [刷题]
 ---
-
-### 第十届蓝桥杯大赛软件赛省赛Java大学A组
 
 #### 1.  平方和
 
-<p align="center">
+<p>
     <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao10/l0.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 
 > 2658417853
@@ -25,9 +25,10 @@ categories: [Code]
 
 #### 2.  数列求值
 
-<p align="center">
+<p>
     <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao10/l1.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 
 ```java
@@ -66,9 +67,10 @@ public class L2 {
 
 #### 4.  最大降雨量
 
-<p align="center">
+<p>
     <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao10/l2.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 
 ```java
@@ -101,9 +103,10 @@ public class Main {
 
 #### 6.  完全二叉树的权值
 
-<p align="center">
+<p>
     <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao10/l3.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 
 ```java
@@ -157,9 +160,10 @@ public class L6 {
 
 #### 7.  外卖优先级
 
-<p align="center">
+<p>
     <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao10/l4.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 
 ```java
@@ -294,7 +298,7 @@ public class L7_2 {
 
 #### 8.  修改数组
 
-<p align="center">
+<p>
     <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao10/l5.png" alt="alt text" style="zoom:70%;" />
 </p>
 
