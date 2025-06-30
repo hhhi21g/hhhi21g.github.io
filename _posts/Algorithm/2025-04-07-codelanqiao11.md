@@ -14,8 +14,9 @@ tags: [刷题]
 #### 1.  门牌制作
 
 <p>
-    <img src="https://hhhi21g.github.io/public/img/lanqiao11/l0.png" alt="alt text" style="zoom:70%;" />
+    <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao11/l0.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 
 > 624
@@ -25,8 +26,9 @@ tags: [刷题]
 #### 2.  既约分数
 
 <p>
-    <img src="https://hhhi21g.github.io/public/img/lanqiao11/l1.png" alt="alt text" style="zoom:70%;" />
+    <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao11/l1.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 
 ```java
@@ -67,8 +69,9 @@ public class l2 {
 #### 3.  蛇形填数
 
 <p>
-    <img src="https://hhhi21g.github.io/public/img/lanqiao11/l3.png" alt="alt text" style="zoom:70%;" />
+    <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao11/l3.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 
 ```java
@@ -128,8 +131,9 @@ public class l3 {
 #### 4.  七段码
 
 <p>
-    <img src="https://hhhi21g.github.io/public/img/lanqiao11/l2.png" alt="alt text" style="zoom:70%;" />
+    <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao11/l2.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 
 ```python
@@ -152,8 +156,9 @@ print(s)
 #### 5.  成绩分析
 
 <p>
-    <img src="https://hhhi21g.github.io/public/img/lanqiao11/l4.png" alt="alt text" style="zoom:70%;" />
+    <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao11/l4.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 
 ```java
@@ -191,8 +196,9 @@ public class l5 {
 #### 6.  回文日期
 
 <p>
-    <img src="https://hhhi21g.github.io/public/img/lanqiao11/l5.png" alt="alt text" style="zoom:70%;" />
+    <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao11/l5.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 
 ```java
@@ -289,8 +295,9 @@ public class l6 {
 #### 7.  子串分值
 
 <p>
-    <img src="https://hhhi21g.github.io/public/img/lanqiao11/l6.png" alt="alt text" style="zoom:70%;" />
+    <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao11/l6.png" alt="alt text" style="zoom:70%;" />
 </p>
+
 
 
 ```java
@@ -337,7 +344,7 @@ public class l7 {
 #### 8.  字串排序
 
 <p>
-    <img src="https://hhhi21g.github.io/public/img/lanqiao11/l7.png" alt="alt text" style="zoom:70%;" />
+    <img src="https://hhhi21g.github.io/assets/img/Algorithm/lanqiao11/l7.png" alt="alt text" style="zoom:70%;" />
 </p>
 
 ```java
