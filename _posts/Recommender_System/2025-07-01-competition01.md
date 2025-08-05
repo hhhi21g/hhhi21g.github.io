@@ -9,10 +9,7 @@ categories: [推荐系统]
 tags: [竞赛]
 ---
 
-- [竞赛介绍](#竞赛介绍)
-- [数据集](#数据集)
-- [baseline](#baseline)
-- [获得共现矩阵](#获得共现矩阵)
+
 竞赛地址：https://www.kaggle.com/competitions/otto-recommender-system/data?select=train.jsonl
 
 作为第一个推荐系统方面的kaggle竞赛，这里将从零开始，详细记录每一步的进行。
