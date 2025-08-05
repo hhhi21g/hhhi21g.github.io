@@ -52,7 +52,7 @@ categories: [信安杯]
     <p>
         <img src="https://hhhi21g.github.io/assets/img/xinan/x0.png" alt="alt text" style="zoom:67%;" />
     </p>
-  
+    
     
     
     - k: 选定的主成分数量；*τ* = 0.9是预定义的阈值，通过经验确定；		
