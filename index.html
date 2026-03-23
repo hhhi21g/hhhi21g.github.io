@@ -2,3 +2,47 @@
 layout: home
 # Index page
 ---
+<div id="auth-box" style="
+    position: fixed;
+    inset: 0;
+    background: #0f172a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    font-family: sans-serif;
+">
+    <div style="background:#1e293b;padding:30px;border-radius:10px;text-align:center;color:#fff">
+        <h2>🔒 私人博客</h2>
+        <p>请输入访问密码</p>
+        <input id="pwd" type="password" placeholder="Password"
+            style="padding:8px;margin-top:10px;border-radius:5px;border:none;">
+        <br><br>
+        <button onclick="checkPwd()"
+            style="padding:8px 20px;border:none;border-radius:5px;background:#38bdf8;color:white;">
+            进入
+        </button>
+        <p id="msg" style="color:#f87171;margin-top:10px;"></p>
+    </div>
+</div>
+
+<script>
+    const correct = "Nineone4536251";
+
+    function checkPwd() {
+        const val = document.getElementById("pwd").value;
+        if (val === correct) {
+            document.getElementById("auth-box").style.display = "none";
+            sessionStorage.setItem("auth", "ok");
+        } else {
+            document.getElementById("msg").innerText = "密码错误";
+        }
+    }
+
+    // 已验证则直接进入（避免每次都输）
+    if (sessionStorage.getItem("auth") === "ok") {
+        document.addEventListener("DOMContentLoaded", () => {
+            document.getElementById("auth-box").style.display = "none";
+        });
+    }
+</script>
