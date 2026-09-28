@@ -7,6 +7,7 @@ date: 2026-09-28 21:50:23 +0900
 
 categories: [可解释性]
 tags: [最相关工作]
+math: true
 ---
 
 来源：The Why Behind the Action: Unveiling Internal Drivers via Agentic Attribution
