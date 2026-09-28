@@ -7,6 +7,7 @@ date: 2026-09-28 21:25:23 +0900
 
 categories: [可解释性]
 tags: [相关工作]
+math: true
 ---
 
 来源：A Survey for LLM Agent Trajectory Analysis:  From Failure Attribution to Enhancement

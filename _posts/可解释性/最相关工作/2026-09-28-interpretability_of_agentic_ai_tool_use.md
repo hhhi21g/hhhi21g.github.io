@@ -7,6 +7,7 @@ date: 2026-09-28 21:46:23 +0900
 
 categories: [可解释性]
 tags: [最相关工作]
+math: true
 ---
 
 来源：Beyond the Black Box: Interpretability of Agentic AI Tool Use

@@ -7,6 +7,7 @@ date: 2026-09-28 21:49:23 +0900
 
 categories: [可解释性]
 tags: [最相关工作]
+math: true
 ---
 
 来源：Internal Representations as Indicators of Hallucinations in Agent Tool Selection

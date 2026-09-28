@@ -7,6 +7,7 @@ date: 2026-09-28 21:28:23 +0900
 
 categories: [可解释性]
 tags: [相关工作]
+math: true
 ---
 
 来源：From Failed Trajectories to Reliable LLM Agents:  Diagnosing and Repairing Harness Flaws
