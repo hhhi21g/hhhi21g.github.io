@@ -50,6 +50,7 @@ $$
 $$
 
 通过**消融**某个句子之后模型预测的变化来衡量因果影响：
+
 $$
 \operatorname{Drop}(s_{i,j})
 =
@@ -59,7 +60,9 @@ $$
 \log p_{\pi_\theta}
 (a_T\mid\hat{\mathcal C}_{\le i}\setminus s_{i,j})
 $$
+
 只**保留**某个句子，看他是否能够独立支持目标行动：
+
 $$
 \operatorname{Hold}(s_{i,j})
 =
