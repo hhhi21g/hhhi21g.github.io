@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: Agent与轨迹调试基础01 - Reflexion
+title: Agent与轨迹调试基础03 - Reflexion
 
 date: 2026-10-09 13:10:23 +0900
 
@@ -35,7 +35,6 @@ $$
 执行动作后，从环境获得观察$$o_i$$，连续执行后形成一条轨迹：$$
 \tau_t=[a_0,o_0,\ldots,a_i,o_i]
 $$
-
 > 可以采用不同的推理方式：CoT / ReAct
 
 ##### 2. Evaluator($$M_e$$)
